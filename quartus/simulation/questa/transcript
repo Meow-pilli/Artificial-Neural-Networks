@@ -1,0 +1,15 @@
+# Compile of axi_lite_wrapper.v was successful.
+# Compile of include.v was successful.
+# Compile of Layer_1.v was successful.
+# Compile of Layer_2.v was successful.
+# Compile of Layer_3.v was successful.
+# Compile of Layer_4.v was successful.
+# Compile of maxFinder.v was successful.
+# Compile of neuron.v was successful.
+# Compile of relu.v was successful.
+# Compile of Sig_ROM.v was successful.
+# Compile of top_sim.v was successful.
+# Compile of Weight_Memory.v was successful.
+# Compile of zynet.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Load canceled

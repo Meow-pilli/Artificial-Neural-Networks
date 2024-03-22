@@ -1,0 +1,409 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "s_axi_rdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "intr",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rvalid",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_arready",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_awready",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wready",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_bvalid",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_aclk",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_aresetn",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_arvalid",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_rready",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_awvalid",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wvalid",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_bready",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_araddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_araddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_araddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_awaddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_awaddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_awaddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_axi_wdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data_valid",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "axis_in_data[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

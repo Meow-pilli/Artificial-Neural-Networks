@@ -1,0 +1,248 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sxc210186/Downloads/vipin/quartus/simulation/questa
+vaxi_lite_wrapper
+Z1 !s110 1702111546
+!i10b 1
+!s100 R9;faQPhKP[hYl^VNIoR30
+I70]BmVE_<nj^Ie<1V_A1P0
+R0
+Z2 w1702104493
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v
+!i122 6
+L0 4 443
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z5 !s108 1702111546.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vLayer_1
+R1
+!i10b 1
+!s100 UDYkOSCLiagXTWfjcgN?_2
+I_o_@4h8KzTZ:M]D9X;31U3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v
+!i122 5
+Z9 L0 1 436
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v|
+!i113 0
+R6
+R7
+R8
+n@layer_1
+vLayer_2
+R1
+!i10b 1
+!s100 [QncF;=QYVSFlnb:^z7nU0
+I=?]W1XB6dgLN;:`_=3o@50
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v
+!i122 4
+R9
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v|
+!i113 0
+R6
+R7
+R8
+n@layer_2
+vLayer_3
+R1
+!i10b 1
+!s100 Q`aecXDnLEBzOocg9?`Jj2
+IIiVbN^0DjI;@ng77<]NMl0
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v
+!i122 3
+Z10 L0 1 156
+R3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1702111545.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v|
+!i113 0
+R6
+R7
+R8
+n@layer_3
+vLayer_4
+Z12 !s110 1702111545
+!i10b 1
+!s100 <JIeUDT0Jk@AgbdDWCgLO2
+Ijo8Hd=WXT2Y082^?a1d0A3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v
+!i122 2
+R10
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v|
+!i113 0
+R6
+R7
+R8
+n@layer_4
+vmaxFinder
+R12
+!i10b 1
+!s100 S3]in9[6XV<2ZMBlB^OPm3
+IaVXlT;a;9OLnDO6H2CP8E3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v
+!i122 1
+L0 1 39
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v|
+!i113 0
+R6
+R7
+R8
+nmax@finder
+vneuron
+Z13 !s110 1702111547
+!i10b 1
+!s100 @L?=I>UU2=DD[BikS3<ER2
+IP4HQ9b^6F0:mIMojaCTV62
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v
+!i122 9
+L0 24 181
+R3
+R4
+r1
+!s85 0
+31
+!s108 1702111547.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v|
+!i113 0
+R6
+R7
+R8
+vReLU
+R12
+!i10b 1
+!s100 ik1zml0EMeWJQ@GLE:2ge0
+ISHW`^120?8ac9e8abBHoK3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v
+!i122 0
+L0 1 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1702111544.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v|
+!i113 0
+R6
+R7
+R8
+n@re@l@u
+vWeight_Memory
+R13
+!i10b 1
+!s100 h[Hab7I5HTeKQe>nV>K;L1
+IZD1E>?9:>:W9kUF[:GIZU0
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v
+!i122 8
+L0 23 35
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v|
+!i113 0
+R6
+R7
+R8
+n@weight_@memory
+vzynet
+R1
+!i10b 1
+!s100 HBc0agmdTSRfz4a8bz_HZ0
+I35`PnBc?1UZhIG6@n012R2
+R0
+w1702110432
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v
+!i122 7
+L0 23 360
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sxc210186/Downloads/vipin/quartus/src|C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v|
+!i113 0
+R6
+R7
+R8

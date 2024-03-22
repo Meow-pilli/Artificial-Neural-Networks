@@ -1,0 +1,283 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sxc210186/Downloads/vipin/quartus/simulation/questa
+vaxi_lite_wrapper
+Z1 !s110 1702111444
+!i10b 1
+!s100 nOW<F[MZ3IFCSO=Z@nDRC2
+IS5YDdUn5XZ16GSgo>YYCi3
+R0
+Z2 w1702104493
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v
+!i122 0
+L0 4 443
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z5 !s108 1702111444.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vLayer_1
+R1
+!i10b 1
+!s100 OZ_z:Yb@YzzP0W@IVlg@`1
+IY77NK4ng>SBnJXf^ja1CT3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v
+!i122 1
+Z8 L0 1 436
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v|
+!i113 0
+R6
+R7
+n@layer_1
+vLayer_2
+R1
+!i10b 1
+!s100 ghB1mYAiEo=b04eFDGhKe2
+IASD=l8nbiakcAmZW[57cY3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v
+!i122 2
+R8
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v|
+!i113 0
+R6
+R7
+n@layer_2
+vLayer_3
+R1
+!i10b 1
+!s100 nnf]e]cDn7o_9=f8hYh<X0
+I1T[zJ`LBZf<1mg]l2;iK81
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v
+!i122 3
+Z9 L0 1 156
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v|
+!i113 0
+R6
+R7
+n@layer_3
+vLayer_4
+Z10 !s110 1702111445
+!i10b 1
+!s100 ANcLcS@9gC5^LDoBg5kQY3
+I=;4on2fATd3R@?iT6=aMJ3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v
+!i122 4
+R9
+R3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1702111445.000000
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v|
+!i113 0
+R6
+R7
+n@layer_4
+vmaxFinder
+R10
+!i10b 1
+!s100 `3fhGYHAWBQFo_^=N`BHB1
+IHZ[CN2dT;1h0FWSkdMk3l2
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v
+!i122 5
+L0 1 39
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v|
+!i113 0
+R6
+R7
+nmax@finder
+vneuron
+R10
+!i10b 1
+!s100 PeIZi?]eWFEk_1J=jgQU:1
+IFfnHG<;^Di7OYXW0geSEb1
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v
+!i122 6
+L0 24 181
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v|
+!i113 0
+R6
+R7
+vReLU
+R10
+!i10b 1
+!s100 M]jh32m3daD20?Ul0KfhP0
+Igl3hg9]U^3P=82Uz6^_N30
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v
+!i122 7
+L0 1 21
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v|
+!i113 0
+R6
+R7
+n@re@l@u
+vSig_ROM
+R10
+!i10b 1
+!s100 8^ML8AmJM[YQM>1f>gKbz1
+Il]?G6c];=_o[8hk^R=3LF2
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v
+!i122 8
+L0 23 25
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v|
+!i113 0
+R6
+R7
+n@sig_@r@o@m
+vtop_sim
+R10
+!i10b 1
+!s100 iLm6:a?c[g?60Qd3[8H6G1
+INiLK7QKVZEA`OP]C^Aa_l1
+R0
+w1702110884
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v
+!i122 9
+L0 26 337
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v|
+!i113 0
+R6
+R7
+vWeight_Memory
+R10
+!i10b 1
+!s100 OWY@d181X^6JF3XAAM]Pm2
+IZjI4807W]c?ZYQj3R3_AQ3
+R0
+R2
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v
+!i122 10
+L0 23 35
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v|
+!i113 0
+R6
+R7
+n@weight_@memory
+vzynet
+R10
+!i10b 1
+!s100 <:n_5DHboo_LZUYa=e0fj2
+Ig_oSQC60@g_ZT4YMzM4bz0
+R0
+w1702110432
+8C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v
+FC:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v
+!i122 11
+L0 23 360
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v|C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v|
+!i113 0
+R6
+R7

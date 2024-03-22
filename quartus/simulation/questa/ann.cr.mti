@@ -1,0 +1,88 @@
+C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/maxFinder.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module maxFinder
+
+Top level modules:
+	maxFinder
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/axi_lite_wrapper.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module axi_lite_wrapper
+
+Top level modules:
+	axi_lite_wrapper
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Weight_Memory.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Weight_Memory
+
+Top level modules:
+	Weight_Memory
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/top_sim.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module top_sim
+
+Top level modules:
+	top_sim
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/include.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_1.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Layer_1
+
+Top level modules:
+	Layer_1
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_2.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Layer_2
+
+Top level modules:
+	Layer_2
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_3.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Layer_3
+
+Top level modules:
+	Layer_3
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/neuron.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module neuron
+
+Top level modules:
+	neuron
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Layer_4.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Layer_4
+
+Top level modules:
+	Layer_4
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/relu.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ReLU
+
+Top level modules:
+	ReLU
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/Sig_ROM.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Sig_ROM
+
+Top level modules:
+	Sig_ROM
+
+} {} {}} C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v {1 {vlog -work work -vopt -stats=none C:/Users/sxc210186/Downloads/vipin/quartus/src/zynet.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module zynet
+
+Top level modules:
+	zynet
+
+} {} {}}
