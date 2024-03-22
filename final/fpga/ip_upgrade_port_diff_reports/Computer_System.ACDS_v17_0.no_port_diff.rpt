@@ -1,0 +1,23 @@
+IP Ports Diff Report for Computer_System
+Wed Dec 06 17:18:18 2023
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++--------------------------------------------------------------------+
+; IP Information                                                     ;
++----------------------+---------------------------------------------+
+; IP Variation Name    ; Computer_System                             ;
+; Prior Version        ; ACDS_v15.0                                  ;
+; New Version          ; ACDS_v17.0                                  ;
+; New File             ; Computer_System/synthesis/Computer_System.v ;
+; Has Port Differences ; No                                          ;
++----------------------+---------------------------------------------+
+
+

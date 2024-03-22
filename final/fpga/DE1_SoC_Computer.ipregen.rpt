@@ -1,0 +1,480 @@
+IP Upgrade report for DE1_SoC_Computer
+Wed Dec 06 17:18:18 2023
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Wed Dec 06 17:18:18 2023           ;
+; Quartus Prime Version        ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                ; DE1_SoC_Computer                            ;
+; Top-level Entity Name        ; DE1_SoC_Computer                            ;
+; Family                       ; Cyclone V                                   ;
++------------------------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                         ;
++-----------------+----------------+---------+-----------------------------------------------+----------------------+-----------------------------------------------+---------+
+; Entity Name     ; Component Name ; Version ; Original Source File                          ; Generation File Path ; New Source File                               ; Message ;
++-----------------+----------------+---------+-----------------------------------------------+----------------------+-----------------------------------------------+---------+
+; Computer_System ; Qsys           ; 15.0    ; Computer_System/synthesis/Computer_System.qip ; Computer_System.qsys ; Computer_System/synthesis/Computer_System.qip ;         ;
++-----------------+----------------+---------+-----------------------------------------------+----------------------+-----------------------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "Computer_System.qsys" to "Computer_System.BAK.qsys"
+Info (11902): Backing up file "Computer_System/synthesis/Computer_System.v" to "Computer_System.BAK.v"
+Info (11837): Started upgrading IP component Qsys with file "Computer_System.qsys"
+Info: 2023.12.06.17:11:48 Info: Starting to upgrade the IP cores in the Qsys system
+Info: 2023.12.06.17:11:48 Info: Finished upgrading the ip cores
+Info: 2023.12.06.17:12:40 Info: Saving generation log to C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System
+Info: 2023.12.06.17:12:40 Info: Starting: Create simulation model
+Info: 2023.12.06.17:12:40 Info: qsys-generate C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Info: 2023.12.06.17:12:40 Info: Loading verilog
+Info: 2023.12.06.17:12:40 Info: Reading input file
+Info: 2023.12.06.17:12:40 Info: Adding ARM_A9_HPS [altera_hps 17.0]
+Info: 2023.12.06.17:12:40 Info: Parameterizing module ARM_A9_HPS
+Info: 2023.12.06.17:12:41 Info: Adding AV_Config [altera_up_avalon_audio_and_video_config 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module AV_Config
+Info: 2023.12.06.17:12:41 Info: Adding F2H_Mem_Window_00000000 [altera_address_span_extender 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module F2H_Mem_Window_00000000
+Info: 2023.12.06.17:12:41 Info: Adding HEX3_HEX0 [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module HEX3_HEX0
+Info: 2023.12.06.17:12:41 Info: Adding LEDs [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module LEDs
+Info: 2023.12.06.17:12:41 Info: Adding Onchip_SRAM [altera_avalon_onchip_memory2 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module Onchip_SRAM
+Info: 2023.12.06.17:12:41 Info: Adding Pixel_DMA_Addr_Translation [altera_up_avalon_video_dma_ctrl_addr_trans 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module Pixel_DMA_Addr_Translation
+Info: 2023.12.06.17:12:41 Info: Adding Pushbuttons [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module Pushbuttons
+Info: 2023.12.06.17:12:41 Info: Adding SDRAM [altera_avalon_new_sdram_controller 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module SDRAM
+Info: 2023.12.06.17:12:41 Info: Adding Slider_Switches [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module Slider_Switches
+Info: 2023.12.06.17:12:41 Info: Adding System_PLL [altera_up_avalon_sys_sdram_pll 17.0]
+Info: 2023.12.06.17:12:41 Info: Parameterizing module System_PLL
+Info: 2023.12.06.17:12:41 Info: Adding VGA_Subsystem [VGA_Subsystem 1.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module VGA_Subsystem
+Info: 2023.12.06.17:12:42 Info: Adding clock_bridge_0 [altera_clock_bridge 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module clock_bridge_0
+Info: 2023.12.06.17:12:42 Info: Adding fpga_ack [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module fpga_ack
+Info: 2023.12.06.17:12:42 Info: Adding fpga_done [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module fpga_done
+Info: 2023.12.06.17:12:42 Info: Adding fpga_output_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module fpga_output_data
+Info: 2023.12.06.17:12:42 Info: Adding hps_fclk [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module hps_fclk
+Info: 2023.12.06.17:12:42 Info: Adding hps_input_addr [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module hps_input_addr
+Info: 2023.12.06.17:12:42 Info: Adding hps_input_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module hps_input_data
+Info: 2023.12.06.17:12:42 Info: Adding hps_reset [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module hps_reset
+Info: 2023.12.06.17:12:42 Info: Adding hps_valid [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:12:42 Info: Parameterizing module hps_valid
+Info: 2023.12.06.17:12:42 Info: Building connections
+Info: 2023.12.06.17:12:42 Info: Parameterizing connections
+Info: 2023.12.06.17:12:42 Info: Validating
+Info: 2023.12.06.17:12:56 Info: Done reading input file
+Info: 2023.12.06.17:13:02 Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: 2023.12.06.17:13:02 Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: 2023.12.06.17:13:02 Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: 2023.12.06.17:13:02 Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: 2023.12.06.17:13:02 Info: Computer_System.SDRAM: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2023.12.06.17:13:02 Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Info: 2023.12.06.17:13:02 Info: Computer_System.fpga_ack: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:13:02 Info: Computer_System.fpga_done: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:13:02 Info: Computer_System.fpga_output_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:13:04 Info: Computer_System: Generating Computer_System "Computer_System" for SIM_VERILOG
+Info: 2023.12.06.17:13:12 Info: Interconnect is inserted between master ARM_A9_HPS.h2f_axi_master and slave SDRAM.s1 because the master is of type axi and the slave is of type avalon.
+Warning: 2023.12.06.17:13:19 Warning: ARM_A9_HPS.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: 2023.12.06.17:13:19 Warning: ARM_A9_HPS.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: 2023.12.06.17:13:19 Warning: ARM_A9_HPS.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: 2023.12.06.17:13:19 Warning: ARM_A9_HPS.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: 2023.12.06.17:13:28 Info: ARM_A9_HPS: "Running  for module: ARM_A9_HPS"
+Info: 2023.12.06.17:13:29 Info: ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: 2023.12.06.17:13:30 Info: ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: 2023.12.06.17:13:30 Warning: ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: 2023.12.06.17:13:30 Warning: ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: 2023.12.06.17:13:35 Info: ARM_A9_HPS: "Computer_System" instantiated altera_hps "ARM_A9_HPS"
+Info: 2023.12.06.17:13:36 Info: HEX3_HEX0: Starting RTL generation for module 'Computer_System_HEX3_HEX0'
+Info: 2023.12.06.17:13:36 Info: HEX3_HEX0:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_HEX3_HEX0 --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0001_HEX3_HEX0_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0001_HEX3_HEX0_gen//Computer_System_HEX3_HEX0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0001_HEX3_HEX0_gen
+Info: 2023.12.06.17:13:37 Info: HEX3_HEX0: Done RTL generation for module 'Computer_System_HEX3_HEX0'
+Info: 2023.12.06.17:13:37 Info: HEX3_HEX0: "Computer_System" instantiated altera_avalon_pio "HEX3_HEX0"
+Info: 2023.12.06.17:13:38 Info: SDRAM: Starting RTL generation for module 'Computer_System_SDRAM'
+Info: 2023.12.06.17:13:38 Info: SDRAM:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=Computer_System_SDRAM --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0002_SDRAM_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0002_SDRAM_gen//Computer_System_SDRAM_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0002_SDRAM_gen
+Info: 2023.12.06.17:13:38 Info: SDRAM: Done RTL generation for module 'Computer_System_SDRAM'
+Info: 2023.12.06.17:13:38 Info: SDRAM: "Computer_System" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: 2023.12.06.17:13:38 Info: Slider_Switches: Starting RTL generation for module 'Computer_System_Slider_Switches'
+Info: 2023.12.06.17:13:38 Info: Slider_Switches:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_Slider_Switches --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0003_Slider_Switches_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0003_Slider_Switches_gen//Computer_System_Slider_Switches_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0003_Slider_Switches_gen
+Info: 2023.12.06.17:13:39 Info: Slider_Switches: Done RTL generation for module 'Computer_System_Slider_Switches'
+Info: 2023.12.06.17:13:39 Info: Slider_Switches: "Computer_System" instantiated altera_avalon_pio "Slider_Switches"
+Info: 2023.12.06.17:13:41 Info: System_PLL: "Computer_System" instantiated altera_up_avalon_sys_sdram_pll "System_PLL"
+Info: 2023.12.06.17:13:41 Info: fpga_ack: Starting RTL generation for module 'Computer_System_fpga_ack'
+Info: 2023.12.06.17:13:41 Info: fpga_ack:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_fpga_ack --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0004_fpga_ack_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0004_fpga_ack_gen//Computer_System_fpga_ack_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0004_fpga_ack_gen
+Info: 2023.12.06.17:13:41 Info: fpga_ack: Done RTL generation for module 'Computer_System_fpga_ack'
+Info: 2023.12.06.17:13:41 Info: fpga_ack: "Computer_System" instantiated altera_avalon_pio "fpga_ack"
+Info: 2023.12.06.17:13:41 Info: fpga_output_data: Starting RTL generation for module 'Computer_System_fpga_output_data'
+Info: 2023.12.06.17:13:41 Info: fpga_output_data:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_fpga_output_data --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0005_fpga_output_data_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0005_fpga_output_data_gen//Computer_System_fpga_output_data_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0005_fpga_output_data_gen
+Info: 2023.12.06.17:13:42 Info: fpga_output_data: Done RTL generation for module 'Computer_System_fpga_output_data'
+Info: 2023.12.06.17:13:42 Info: fpga_output_data: "Computer_System" instantiated altera_avalon_pio "fpga_output_data"
+Info: 2023.12.06.17:13:42 Info: hps_fclk: Starting RTL generation for module 'Computer_System_hps_fclk'
+Info: 2023.12.06.17:13:42 Info: hps_fclk:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_fclk --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0006_hps_fclk_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0006_hps_fclk_gen//Computer_System_hps_fclk_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0006_hps_fclk_gen
+Info: 2023.12.06.17:13:42 Info: hps_fclk: Done RTL generation for module 'Computer_System_hps_fclk'
+Info: 2023.12.06.17:13:42 Info: hps_fclk: "Computer_System" instantiated altera_avalon_pio "hps_fclk"
+Info: 2023.12.06.17:13:42 Info: hps_input_addr: Starting RTL generation for module 'Computer_System_hps_input_addr'
+Info: 2023.12.06.17:13:42 Info: hps_input_addr:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_input_addr --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0007_hps_input_addr_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0007_hps_input_addr_gen//Computer_System_hps_input_addr_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0007_hps_input_addr_gen
+Info: 2023.12.06.17:13:42 Info: hps_input_addr: Done RTL generation for module 'Computer_System_hps_input_addr'
+Info: 2023.12.06.17:13:42 Info: hps_input_addr: "Computer_System" instantiated altera_avalon_pio "hps_input_addr"
+Info: 2023.12.06.17:13:42 Info: hps_input_data: Starting RTL generation for module 'Computer_System_hps_input_data'
+Info: 2023.12.06.17:13:42 Info: hps_input_data:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_input_data --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0008_hps_input_data_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0008_hps_input_data_gen//Computer_System_hps_input_data_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0008_hps_input_data_gen
+Info: 2023.12.06.17:13:43 Info: hps_input_data: Done RTL generation for module 'Computer_System_hps_input_data'
+Info: 2023.12.06.17:13:43 Info: hps_input_data: "Computer_System" instantiated altera_avalon_pio "hps_input_data"
+Info: 2023.12.06.17:13:45 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:13:47 Info: mm_interconnect_0: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: 2023.12.06.17:13:57 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:13:58 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:13:59 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:00 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:01 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:02 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:02 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:03 Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:04 Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:05 Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:14:15 Info: mm_interconnect_1: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: 2023.12.06.17:14:15 Info: irq_mapper: "Computer_System" instantiated altera_irq_mapper "irq_mapper"
+Info: 2023.12.06.17:14:15 Info: rst_controller: "Computer_System" instantiated altera_reset_controller "rst_controller"
+Info: 2023.12.06.17:14:15 Info: fpga_interfaces: "ARM_A9_HPS" instantiated altera_interface_generator "fpga_interfaces"
+Info: 2023.12.06.17:14:17 Info: hps_io: "ARM_A9_HPS" instantiated altera_hps_io "hps_io"
+Info: 2023.12.06.17:14:17 Info: sys_pll: Generating simgen model
+Info: 2023.12.06.17:14:52 Info: sys_pll: Simgen was successful
+Info: 2023.12.06.17:14:52 Info: sys_pll: "System_PLL" instantiated altera_pll "sys_pll"
+Info: 2023.12.06.17:14:52 Info: reset_from_locked: "System_PLL" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: 2023.12.06.17:14:52 Info: SDRAM_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "SDRAM_s1_translator"
+Info: 2023.12.06.17:14:52 Info: ARM_A9_HPS_h2f_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "ARM_A9_HPS_h2f_axi_master_agent"
+Info: 2023.12.06.17:14:52 Info: SDRAM_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "SDRAM_s1_agent"
+Info: 2023.12.06.17:14:52 Info: SDRAM_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "SDRAM_s1_agent_rsp_fifo"
+Info: 2023.12.06.17:14:52 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: 2023.12.06.17:14:52 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: 2023.12.06.17:14:53 Info: SDRAM_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "SDRAM_s1_burst_adapter"
+Info: 2023.12.06.17:14:53 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:53 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2023.12.06.17:14:53 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2023.12.06.17:14:53 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2023.12.06.17:14:53 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2023.12.06.17:14:53 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:53 Info: SDRAM_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "SDRAM_s1_rsp_width_adapter"
+Info: 2023.12.06.17:14:53 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:53 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:54 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2023.12.06.17:14:54 Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: 2023.12.06.17:14:54 Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: 2023.12.06.17:14:54 Info: ARM_A9_HPS_h2f_lw_axi_master_wr_limiter: "mm_interconnect_1" instantiated altera_merlin_traffic_limiter "ARM_A9_HPS_h2f_lw_axi_master_wr_limiter"
+Info: 2023.12.06.17:14:54 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:54 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:55 Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2023.12.06.17:14:55 Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2023.12.06.17:14:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:55 Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2023.12.06.17:14:55 Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2023.12.06.17:14:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: avalon_st_adapter: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2023.12.06.17:14:56 Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation/submodules
+Info: 2023.12.06.17:14:56 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2023.12.06.17:14:56 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2023.12.06.17:14:56 Info: Computer_System: Done "Computer_System" with 43 modules, 71 files
+Info: 2023.12.06.17:14:56 Info: qsys-generate succeeded.
+Info: 2023.12.06.17:14:56 Info: Finished: Create simulation model
+Info: 2023.12.06.17:14:56 Info: Starting: Create Modelsim Project.
+Info: 2023.12.06.17:14:56 Info: sim-script-gen --spd=C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System\Computer_System.spd --output-directory=C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:56 Info: Doing: ip-make-simscript --spd=C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System\Computer_System.spd --output-directory=C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info: Generating the following file(s) for MODELSIM simulator in C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info:     mentor
+Info: 2023.12.06.17:14:58 Info: Generating the following file(s) for VCS simulator in C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info:     synopsys/vcs
+Info: 2023.12.06.17:14:58 Info: Generating the following file(s) for VCSMX simulator in C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info:     synopsys/vcsmx
+Info: 2023.12.06.17:14:58 Info:     synopsys/vcsmx
+Info: 2023.12.06.17:14:58 Info: Generating the following file(s) for NCSIM simulator in C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info:     cadence
+Info: 2023.12.06.17:14:58 Info:     cadence
+Info: 2023.12.06.17:14:58 Info:     cadence
+Info: 2023.12.06.17:14:58 Info:     35 .cds.lib files in cadence/cds_libs
+Info: 2023.12.06.17:14:58 Info: Generating the following file(s) for RIVIERA simulator in C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info:     aldec
+Info: 2023.12.06.17:14:58 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/simulation
+Info: 2023.12.06.17:14:58 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2023.12.06.17:14:58 Info: Finished: Create Modelsim Project.
+Info: 2023.12.06.17:14:58 Info: Starting: Create block symbol file (.bsf)
+Info: 2023.12.06.17:14:58 Info: qsys-generate C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System.qsys --block-symbol-file --output-directory=C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System --family="Cyclone V" --part=5CSEMA5F31C6
+Info: 2023.12.06.17:14:58 Info: Loading verilog
+Info: 2023.12.06.17:14:59 Info: Reading input file
+Info: 2023.12.06.17:14:59 Info: Adding ARM_A9_HPS [altera_hps 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module ARM_A9_HPS
+Info: 2023.12.06.17:14:59 Info: Adding AV_Config [altera_up_avalon_audio_and_video_config 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module AV_Config
+Info: 2023.12.06.17:14:59 Info: Adding F2H_Mem_Window_00000000 [altera_address_span_extender 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module F2H_Mem_Window_00000000
+Info: 2023.12.06.17:14:59 Info: Adding HEX3_HEX0 [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module HEX3_HEX0
+Info: 2023.12.06.17:14:59 Info: Adding LEDs [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module LEDs
+Info: 2023.12.06.17:14:59 Info: Adding Onchip_SRAM [altera_avalon_onchip_memory2 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module Onchip_SRAM
+Info: 2023.12.06.17:14:59 Info: Adding Pixel_DMA_Addr_Translation [altera_up_avalon_video_dma_ctrl_addr_trans 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module Pixel_DMA_Addr_Translation
+Info: 2023.12.06.17:14:59 Info: Adding Pushbuttons [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module Pushbuttons
+Info: 2023.12.06.17:14:59 Info: Adding SDRAM [altera_avalon_new_sdram_controller 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module SDRAM
+Info: 2023.12.06.17:14:59 Info: Adding Slider_Switches [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module Slider_Switches
+Info: 2023.12.06.17:14:59 Info: Adding System_PLL [altera_up_avalon_sys_sdram_pll 17.0]
+Info: 2023.12.06.17:14:59 Info: Parameterizing module System_PLL
+Info: 2023.12.06.17:14:59 Info: Adding VGA_Subsystem [VGA_Subsystem 1.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module VGA_Subsystem
+Info: 2023.12.06.17:15:00 Info: Adding clock_bridge_0 [altera_clock_bridge 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module clock_bridge_0
+Info: 2023.12.06.17:15:00 Info: Adding fpga_ack [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module fpga_ack
+Info: 2023.12.06.17:15:00 Info: Adding fpga_done [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module fpga_done
+Info: 2023.12.06.17:15:00 Info: Adding fpga_output_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module fpga_output_data
+Info: 2023.12.06.17:15:00 Info: Adding hps_fclk [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module hps_fclk
+Info: 2023.12.06.17:15:00 Info: Adding hps_input_addr [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module hps_input_addr
+Info: 2023.12.06.17:15:00 Info: Adding hps_input_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module hps_input_data
+Info: 2023.12.06.17:15:00 Info: Adding hps_reset [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module hps_reset
+Info: 2023.12.06.17:15:00 Info: Adding hps_valid [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:00 Info: Parameterizing module hps_valid
+Info: 2023.12.06.17:15:00 Info: Building connections
+Info: 2023.12.06.17:15:00 Info: Parameterizing connections
+Info: 2023.12.06.17:15:00 Info: Validating
+Info: 2023.12.06.17:15:14 Info: Done reading input file
+Info: 2023.12.06.17:15:20 Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: 2023.12.06.17:15:20 Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: 2023.12.06.17:15:20 Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: 2023.12.06.17:15:20 Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: 2023.12.06.17:15:20 Info: Computer_System.SDRAM: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2023.12.06.17:15:20 Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Info: 2023.12.06.17:15:20 Info: Computer_System.fpga_ack: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:20 Info: Computer_System.fpga_done: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:20 Info: Computer_System.fpga_output_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:21 Info: qsys-generate succeeded.
+Info: 2023.12.06.17:15:21 Info: Finished: Create block symbol file (.bsf)
+Info: 2023.12.06.17:15:21 Info:
+Info: 2023.12.06.17:15:21 Info: Starting: Create HDL design files for synthesis
+Info: 2023.12.06.17:15:21 Info: qsys-generate C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System.qsys --synthesis=VERILOG --output-directory=C:\Users\sxc210186\Downloads\very_cnn\mnist-cnn-fpga\deployment\DE1-SoC_Computer_15_640_current\verilog\Computer_System\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Info: 2023.12.06.17:15:21 Info: Loading verilog
+Info: 2023.12.06.17:15:22 Info: Reading input file
+Info: 2023.12.06.17:15:22 Info: Adding ARM_A9_HPS [altera_hps 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module ARM_A9_HPS
+Info: 2023.12.06.17:15:22 Info: Adding AV_Config [altera_up_avalon_audio_and_video_config 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module AV_Config
+Info: 2023.12.06.17:15:22 Info: Adding F2H_Mem_Window_00000000 [altera_address_span_extender 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module F2H_Mem_Window_00000000
+Info: 2023.12.06.17:15:22 Info: Adding HEX3_HEX0 [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module HEX3_HEX0
+Info: 2023.12.06.17:15:22 Info: Adding LEDs [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module LEDs
+Info: 2023.12.06.17:15:22 Info: Adding Onchip_SRAM [altera_avalon_onchip_memory2 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module Onchip_SRAM
+Info: 2023.12.06.17:15:22 Info: Adding Pixel_DMA_Addr_Translation [altera_up_avalon_video_dma_ctrl_addr_trans 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module Pixel_DMA_Addr_Translation
+Info: 2023.12.06.17:15:22 Info: Adding Pushbuttons [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module Pushbuttons
+Info: 2023.12.06.17:15:22 Info: Adding SDRAM [altera_avalon_new_sdram_controller 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module SDRAM
+Info: 2023.12.06.17:15:22 Info: Adding Slider_Switches [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module Slider_Switches
+Info: 2023.12.06.17:15:22 Info: Adding System_PLL [altera_up_avalon_sys_sdram_pll 17.0]
+Info: 2023.12.06.17:15:22 Info: Parameterizing module System_PLL
+Info: 2023.12.06.17:15:22 Info: Adding VGA_Subsystem [VGA_Subsystem 1.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module VGA_Subsystem
+Info: 2023.12.06.17:15:24 Info: Adding clock_bridge_0 [altera_clock_bridge 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module clock_bridge_0
+Info: 2023.12.06.17:15:24 Info: Adding fpga_ack [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module fpga_ack
+Info: 2023.12.06.17:15:24 Info: Adding fpga_done [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module fpga_done
+Info: 2023.12.06.17:15:24 Info: Adding fpga_output_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module fpga_output_data
+Info: 2023.12.06.17:15:24 Info: Adding hps_fclk [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module hps_fclk
+Info: 2023.12.06.17:15:24 Info: Adding hps_input_addr [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module hps_input_addr
+Info: 2023.12.06.17:15:24 Info: Adding hps_input_data [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module hps_input_data
+Info: 2023.12.06.17:15:24 Info: Adding hps_reset [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module hps_reset
+Info: 2023.12.06.17:15:24 Info: Adding hps_valid [altera_avalon_pio 17.0]
+Info: 2023.12.06.17:15:24 Info: Parameterizing module hps_valid
+Info: 2023.12.06.17:15:24 Info: Building connections
+Info: 2023.12.06.17:15:24 Info: Parameterizing connections
+Info: 2023.12.06.17:15:24 Info: Validating
+Info: 2023.12.06.17:15:37 Info: Done reading input file
+Info: 2023.12.06.17:15:43 Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: 2023.12.06.17:15:43 Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: 2023.12.06.17:15:43 Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: 2023.12.06.17:15:43 Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: 2023.12.06.17:15:43 Info: Computer_System.SDRAM: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2023.12.06.17:15:43 Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Info: 2023.12.06.17:15:43 Info: Computer_System.fpga_ack: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:43 Info: Computer_System.fpga_done: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:43 Info: Computer_System.fpga_output_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2023.12.06.17:15:48 Info: Computer_System: Generating Computer_System "Computer_System" for QUARTUS_SYNTH
+Info: 2023.12.06.17:15:55 Info: Interconnect is inserted between master ARM_A9_HPS.h2f_axi_master and slave SDRAM.s1 because the master is of type axi and the slave is of type avalon.
+Warning: 2023.12.06.17:16:00 Warning: ARM_A9_HPS.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: 2023.12.06.17:16:00 Warning: ARM_A9_HPS.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: 2023.12.06.17:16:00 Warning: ARM_A9_HPS.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: 2023.12.06.17:16:00 Warning: ARM_A9_HPS.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: 2023.12.06.17:16:09 Info: ARM_A9_HPS: "Running  for module: ARM_A9_HPS"
+Info: 2023.12.06.17:16:09 Info: ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: 2023.12.06.17:16:10 Info: ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: 2023.12.06.17:16:10 Warning: ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: 2023.12.06.17:16:10 Warning: ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: 2023.12.06.17:16:15 Info: ARM_A9_HPS: "Computer_System" instantiated altera_hps "ARM_A9_HPS"
+Info: 2023.12.06.17:16:15 Info: HEX3_HEX0: Starting RTL generation for module 'Computer_System_HEX3_HEX0'
+Info: 2023.12.06.17:16:15 Info: HEX3_HEX0:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_HEX3_HEX0 --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0037_HEX3_HEX0_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0037_HEX3_HEX0_gen/
+Info: 2023.12.06.17:16:15 Info: HEX3_HEX0: Done RTL generation for module 'Computer_System_HEX3_HEX0'
+Info: 2023.12.06.17:16:15 Info: HEX3_HEX0: "Computer_System" instantiated altera_avalon_pio "HEX3_HEX0"
+Info: 2023.12.06.17:16:15 Info: SDRAM: Starting RTL generation for module 'Computer_System_SDRAM'
+Info: 2023.12.06.17:16:15 Info: SDRAM:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=Computer_System_SDRAM --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0038_SDRAM_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0038_SDRAM_gen/
+Info: 2023.12.06.17:16:16 Info: SDRAM: Done RTL generation for module 'Computer_System_SDRAM'
+Info: 2023.12.06.17:16:16 Info: SDRAM: "Computer_System" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: 2023.12.06.17:16:16 Info: Slider_Switches: Starting RTL generation for module 'Computer_System_Slider_Switches'
+Info: 2023.12.06.17:16:16 Info: Slider_Switches:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_Slider_Switches --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0039_Slider_Switches_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0039_Slider_Switches_gen/
+Info: 2023.12.06.17:16:17 Info: Slider_Switches: Done RTL generation for module 'Computer_System_Slider_Switches'
+Info: 2023.12.06.17:16:17 Info: Slider_Switches: "Computer_System" instantiated altera_avalon_pio "Slider_Switches"
+Info: 2023.12.06.17:16:19 Info: System_PLL: "Computer_System" instantiated altera_up_avalon_sys_sdram_pll "System_PLL"
+Info: 2023.12.06.17:16:19 Info: fpga_ack: Starting RTL generation for module 'Computer_System_fpga_ack'
+Info: 2023.12.06.17:16:19 Info: fpga_ack:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_fpga_ack --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0040_fpga_ack_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0040_fpga_ack_gen/
+Info: 2023.12.06.17:16:20 Info: fpga_ack: Done RTL generation for module 'Computer_System_fpga_ack'
+Info: 2023.12.06.17:16:20 Info: fpga_ack: "Computer_System" instantiated altera_avalon_pio "fpga_ack"
+Info: 2023.12.06.17:16:20 Info: fpga_output_data: Starting RTL generation for module 'Computer_System_fpga_output_data'
+Info: 2023.12.06.17:16:20 Info: fpga_output_data:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_fpga_output_data --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0041_fpga_output_data_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0041_fpga_output_data_gen/
+Info: 2023.12.06.17:16:20 Info: fpga_output_data: Done RTL generation for module 'Computer_System_fpga_output_data'
+Info: 2023.12.06.17:16:20 Info: fpga_output_data: "Computer_System" instantiated altera_avalon_pio "fpga_output_data"
+Info: 2023.12.06.17:16:20 Info: hps_fclk: Starting RTL generation for module 'Computer_System_hps_fclk'
+Info: 2023.12.06.17:16:20 Info: hps_fclk:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_fclk --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0042_hps_fclk_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0042_hps_fclk_gen/
+Info: 2023.12.06.17:16:20 Info: hps_fclk: Done RTL generation for module 'Computer_System_hps_fclk'
+Info: 2023.12.06.17:16:20 Info: hps_fclk: "Computer_System" instantiated altera_avalon_pio "hps_fclk"
+Info: 2023.12.06.17:16:20 Info: hps_input_addr: Starting RTL generation for module 'Computer_System_hps_input_addr'
+Info: 2023.12.06.17:16:20 Info: hps_input_addr:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_input_addr --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0043_hps_input_addr_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0043_hps_input_addr_gen/
+Info: 2023.12.06.17:16:21 Info: hps_input_addr: Done RTL generation for module 'Computer_System_hps_input_addr'
+Info: 2023.12.06.17:16:21 Info: hps_input_addr: "Computer_System" instantiated altera_avalon_pio "hps_input_addr"
+Info: 2023.12.06.17:16:21 Info: hps_input_data: Starting RTL generation for module 'Computer_System_hps_input_data'
+Info: 2023.12.06.17:16:21 Info: hps_input_data:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_hps_input_data --dir=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0044_hps_input_data_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/SXC210~1/AppData/Local/Temp/alt9697_3051784066134724206.dir/0044_hps_input_data_gen/
+Info: 2023.12.06.17:16:21 Info: hps_input_data: Done RTL generation for module 'Computer_System_hps_input_data'
+Info: 2023.12.06.17:16:21 Info: hps_input_data: "Computer_System" instantiated altera_avalon_pio "hps_input_data"
+Info: 2023.12.06.17:16:24 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:25 Info: mm_interconnect_0: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: 2023.12.06.17:16:36 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:36 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:37 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:38 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:39 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:40 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:41 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:42 Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:43 Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:43 Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: 2023.12.06.17:16:53 Info: mm_interconnect_1: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: 2023.12.06.17:16:53 Info: irq_mapper: "Computer_System" instantiated altera_irq_mapper "irq_mapper"
+Info: 2023.12.06.17:16:53 Info: rst_controller: "Computer_System" instantiated altera_reset_controller "rst_controller"
+Info: 2023.12.06.17:16:53 Info: fpga_interfaces: "ARM_A9_HPS" instantiated altera_interface_generator "fpga_interfaces"
+Info: 2023.12.06.17:16:54 Info: hps_io: "ARM_A9_HPS" instantiated altera_hps_io "hps_io"
+Info: 2023.12.06.17:16:54 Info: sys_pll: "System_PLL" instantiated altera_pll "sys_pll"
+Info: 2023.12.06.17:16:54 Info: reset_from_locked: "System_PLL" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: 2023.12.06.17:16:54 Info: SDRAM_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "SDRAM_s1_translator"
+Info: 2023.12.06.17:16:54 Info: ARM_A9_HPS_h2f_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "ARM_A9_HPS_h2f_axi_master_agent"
+Info: 2023.12.06.17:16:54 Info: SDRAM_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "SDRAM_s1_agent"
+Info: 2023.12.06.17:16:55 Info: SDRAM_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "SDRAM_s1_agent_rsp_fifo"
+Info: 2023.12.06.17:16:55 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: 2023.12.06.17:16:55 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: 2023.12.06.17:16:55 Info: SDRAM_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "SDRAM_s1_burst_adapter"
+Info: 2023.12.06.17:16:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:55 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2023.12.06.17:16:55 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2023.12.06.17:16:55 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2023.12.06.17:16:55 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2023.12.06.17:16:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:55 Info: SDRAM_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "SDRAM_s1_rsp_width_adapter"
+Info: 2023.12.06.17:16:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:55 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:56 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2023.12.06.17:16:56 Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: 2023.12.06.17:16:56 Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: 2023.12.06.17:16:56 Info: ARM_A9_HPS_h2f_lw_axi_master_wr_limiter: "mm_interconnect_1" instantiated altera_merlin_traffic_limiter "ARM_A9_HPS_h2f_lw_axi_master_wr_limiter"
+Info: 2023.12.06.17:16:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:56 Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2023.12.06.17:16:56 Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2023.12.06.17:16:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:56 Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2023.12.06.17:16:56 Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2023.12.06.17:16:56 Info: Reusing file C:/Users/sxc210186/Downloads/very_cnn/mnist-cnn-fpga/deployment/DE1-SoC_Computer_15_640_current/verilog/Computer_System/synthesis/submodules
+Info: 2023.12.06.17:16:58 Info: avalon_st_adapter: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2023.12.06.17:18:16 Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: 2023.12.06.17:18:16 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2023.12.06.17:18:16 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2023.12.06.17:18:16 Info: Computer_System: Done "Computer_System" with 43 modules, 102 files
+Info: 2023.12.06.17:18:18 Info: qsys-generate succeeded.
+Info: 2023.12.06.17:18:18 Info: Finished: Create HDL design files for synthesis
+Info (11131): Completed upgrading IP component Qsys with file "Computer_System.qsys"
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 4859 megabytes
+    Info: Processing ended: Wed Dec 06 17:18:30 2023
+    Info: Elapsed time: 00:07:57
+    Info: Total CPU time (on all processors): 00:08:28
+
+

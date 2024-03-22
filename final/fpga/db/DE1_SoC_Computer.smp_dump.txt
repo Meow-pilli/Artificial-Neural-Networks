@@ -1,0 +1,187 @@
+
+State Machine - |DE1_SoC_Computer|ModelV3:modelv3|Maxpool_FC_YJWNR:Maxpool_FC_YJWNR_HVROP|state
+Name state.1001 state.1000 state.0111 state.0110 state.0101 state.0100 state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 
+state.0001 0 0 0 0 0 0 0 0 1 1 
+state.0010 0 0 0 0 0 0 0 1 0 1 
+state.0011 0 0 0 0 0 0 1 0 0 1 
+state.0100 0 0 0 0 0 1 0 0 0 1 
+state.0101 0 0 0 0 1 0 0 0 0 1 
+state.0110 0 0 0 1 0 0 0 0 0 1 
+state.0111 0 0 1 0 0 0 0 0 0 1 
+state.1000 0 1 0 0 0 0 0 0 0 1 
+state.1001 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:slider_switches_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:fpga_ack_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hps_reset_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:fpga_output_data_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:fpga_done_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hps_valid_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hps_fclk_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hps_input_data_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hps_input_addr_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:hex3_hex0_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|ModelV3:modelv3|Maxpool_ZSYYF:Maxpool_ZSYYF_TPVBU|state
+Name state.1011 state.1010 state.1001 state.1000 state.0111 state.0110 state.0101 state.0100 state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 0 0 
+state.0001 0 0 0 0 0 0 0 0 0 0 1 1 
+state.0010 0 0 0 0 0 0 0 0 0 1 0 1 
+state.0011 0 0 0 0 0 0 0 0 1 0 0 1 
+state.0100 0 0 0 0 0 0 0 1 0 0 0 1 
+state.0101 0 0 0 0 0 0 1 0 0 0 0 1 
+state.0110 0 0 0 0 0 1 0 0 0 0 0 1 
+state.0111 0 0 0 0 1 0 0 0 0 0 0 1 
+state.1000 0 0 0 1 0 0 0 0 0 0 0 1 
+state.1001 0 0 1 0 0 0 0 0 0 0 0 1 
+state.1010 0 1 0 0 0 0 0 0 0 0 0 1 
+state.1011 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|state
+Name state.0111 state.0110 state.0101 state.0100 state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 0 0 0 0 
+state.0001 0 0 0 0 0 0 1 1 
+state.0010 0 0 0 0 0 1 0 1 
+state.0011 0 0 0 0 1 0 0 1 
+state.0100 0 0 0 1 0 0 0 1 
+state.0101 0 0 1 0 0 0 0 1 
+state.0110 0 1 0 0 0 0 0 1 
+state.0111 1 0 0 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|ModelV3:modelv3|state
+Name state.101 state.100 state.011 state.010 state.001 state.000 
+state.000 0 0 0 0 0 0 
+state.001 0 0 0 0 1 1 
+state.010 0 0 0 1 0 1 
+state.011 0 0 1 0 0 1 
+state.100 0 1 0 0 0 1 
+state.101 1 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE1_SoC_Computer|ModelV3:modelv3|Conv2D_XSIDO:Conv2D_XSIDO_CWNFV|state
+Name state.0111 state.0110 state.0101 state.0100 state.0011 state.0010 state.0001 state.0000 state.1000 
+state.0000 0 0 0 0 0 0 0 0 0 
+state.0001 0 0 0 0 0 0 1 1 0 
+state.0010 0 0 0 0 0 1 0 1 0 
+state.0011 0 0 0 0 1 0 0 1 0 
+state.0100 0 0 0 1 0 0 0 1 0 
+state.0101 0 0 1 0 0 0 0 1 0 
+state.0110 0 1 0 0 0 0 0 1 0 
+state.0111 1 0 0 0 0 0 0 1 0 
+state.1000 0 0 0 0 0 0 0 1 1 
+
+State Machine - |DE1_SoC_Computer|ModelV3:modelv3|Conv2DSum1D_LXJTZ:Conv2DSum1D_LXJTZ_XATMI|state
+Name state.1011 state.1010 state.1001 state.1000 state.0111 state.0110 state.0101 state.0100 state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 0 0 
+state.0001 0 0 0 0 0 0 0 0 0 0 1 1 
+state.0010 0 0 0 0 0 0 0 0 0 1 0 1 
+state.0011 0 0 0 0 0 0 0 0 1 0 0 1 
+state.0100 0 0 0 0 0 0 0 1 0 0 0 1 
+state.0101 0 0 0 0 0 0 1 0 0 0 0 1 
+state.0110 0 0 0 0 0 1 0 0 0 0 0 1 
+state.0111 0 0 0 0 1 0 0 0 0 0 0 1 
+state.1000 0 0 0 1 0 0 0 0 0 0 0 1 
+state.1001 0 0 1 0 0 0 0 0 0 0 0 1 
+state.1010 0 1 0 0 0 0 0 0 0 0 0 1 
+state.1011 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_SDRAM:sdram|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_SDRAM:sdram|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_SDRAM:sdram|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |DE1_SoC_Computer|Computer_System:The_System|Computer_System_SDRAM:sdram|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 

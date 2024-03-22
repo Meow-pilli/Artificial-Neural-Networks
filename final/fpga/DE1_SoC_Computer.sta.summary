@@ -1,0 +1,280 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_dram'
+Slack : -3.458
+TNS   : -122.403
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : 1.611
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.730
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.142
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.853
+TNS   : -60.012
+
+Type  : Slow 1100mV 85C Model Hold 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_dram'
+Slack : 9.212
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 3.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.941
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.733
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 0.608
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.623
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.762
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.020
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk_dram'
+Slack : -3.213
+TNS   : -113.490
+
+Type  : Slow 1100mV 0C Model Setup 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.727
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : 1.849
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.393
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.148
+TNS   : -64.779
+
+Type  : Slow 1100mV 0C Model Hold 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_dram'
+Slack : 9.060
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 3.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 5.243
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.674
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 0.613
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.630
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.733
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.988
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk_dram'
+Slack : 1.445
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.110
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.444
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : 4.903
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.737
+TNS   : -26.703
+
+Type  : Fast 1100mV 85C Model Hold 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_dram'
+Slack : 5.164
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 3.727
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 6.761
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 0.883
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.835
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_dram'
+Slack : 1.794
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.110
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : 5.244
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 5.368
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -2.183
+TNS   : -33.932
+
+Type  : Fast 1100mV 0C Model Hold 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_dram'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 3.825
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.473
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 0.887
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Computer_System:The_System|Computer_System_ARM_A9_HPS:arm_a9_hps|Computer_System_ARM_A9_HPS_hps_io:hps_io|Computer_System_ARM_A9_HPS_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.894
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'The_System|system_pll|sys_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.881
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.819
+TNS   : 0.000
+
+------------------------------------------------------------
+Info: see the "DDR report" for DDR timing results
+------------------------------------------------------------
+------------------------------------------------------------
