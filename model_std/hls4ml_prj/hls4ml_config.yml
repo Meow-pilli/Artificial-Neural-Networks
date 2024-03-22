@@ -1,0 +1,15 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'model_std/hls4ml_prj/keras_model.h5'
+OutputDir: model_std/hls4ml_prj
+OutputPredictions: null
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: fe41dbCF
+Version: 1.0.0
